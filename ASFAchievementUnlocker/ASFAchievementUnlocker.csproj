@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="protobuf-net" Version="3.0.101" />
+    <PackageReference Include="System.Composition.AttributedModel" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ArchiSteamFarm">
+      <HintPath>..\..\..\..\..\Downloads\ASF\ArchiSteamFarm-5.1.0.9\ArchiSteamFarm\bin\Debug\net5.0\ArchiSteamFarm.dll</HintPath>
+    </Reference>
+    <Reference Include="SteamKit2">
+      <HintPath>..\..\..\..\..\Downloads\ASF\ArchiSteamFarm-5.1.0.9\ArchiSteamFarm\bin\Debug\net5.0\SteamKit2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

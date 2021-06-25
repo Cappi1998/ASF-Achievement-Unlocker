@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASFAchievementUnlocker", "ASFAchievementUnlocker\ASFAchievementUnlocker.csproj", "{27B938FD-021A-4EE6-8BD1-2816F63E0690}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27B938FD-021A-4EE6-8BD1-2816F63E0690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27B938FD-021A-4EE6-8BD1-2816F63E0690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27B938FD-021A-4EE6-8BD1-2816F63E0690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27B938FD-021A-4EE6-8BD1-2816F63E0690}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60285C04-405B-41FA-98ED-C7178B1428B5}
+	EndGlobalSection
+EndGlobal
