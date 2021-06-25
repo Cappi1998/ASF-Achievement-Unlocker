@@ -20,5 +20,7 @@ Simple plugin for [ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFar
 ### Command:  `unlocker <bots> <appids>`
 
 
+![print](https://image.prntscr.com/image/sRwKsRIRSi6OJHLr3G-LPg.png)
+
 # DISCLAIMER
 This plugin is provided on AS-IS basis, without any guarantee at all. Author is not responsible for any harm, direct or indirect, that may be caused by using this plugin. You use this plugin at your own risk.
