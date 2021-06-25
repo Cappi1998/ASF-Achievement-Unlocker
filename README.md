@@ -9,6 +9,11 @@
 # Description
 Simple plugin for [ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFarm) just to unlock massive achievements.
 
+## Getting Started
+
+### Prerequisites
+[ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFarm) v5.1.0.9 or higher required. 
+
 
 # DISCLAIMER
 This plugin is provided on AS-IS basis, without any guarantee at all. Author is not responsible for any harm, direct or indirect, that may be caused by using this plugin. You use this plugin at your own risk.
