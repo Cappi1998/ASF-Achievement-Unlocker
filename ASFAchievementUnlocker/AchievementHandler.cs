@@ -183,7 +183,6 @@ namespace ASFAchievementUnlocker
 			if (!Client.IsConnected) 
 			{
 				return achievements;
-				//return Strings.BotNotConnected;
 			}
 
 			GetAchievementsCallback? response = await GetAchievementsResponse(bot, gameID);
@@ -191,7 +190,6 @@ namespace ASFAchievementUnlocker
 			if (response == null || response.Response == null || !response.Success) 
 			{
 				return achievements;
-				//return "Can't retrieve achievements for " + gameID.ToString();
 			}
 			
 			List<StatData>? Stats = ParseResponse(response.Response);

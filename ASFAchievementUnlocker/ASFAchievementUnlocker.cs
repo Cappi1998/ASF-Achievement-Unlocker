@@ -83,10 +83,17 @@ namespace ASFAchievementUnlocker
             var response = "";
             foreach(var AppID in gamesToGetAchievements)
             {
-                HashSet<uint> achievements = await AchievementHandler.GetAchievements(bot, Convert.ToUInt64(AppID)).ConfigureAwait(false);
-                response += await Task.Run<string>(() => AchievementHandler.SetAchievements(bot, AppID, achievements, true)).ConfigureAwait(false);
+                if (bot.IsConnectedAndLoggedOn)
+                {
+                    HashSet<uint> achievements = await AchievementHandler.GetAchievements(bot, Convert.ToUInt64(AppID)).ConfigureAwait(false);
+                    response += await Task.Run<string>(() => AchievementHandler.SetAchievements(bot, AppID, achievements, true)).ConfigureAwait(false);
+                }
+                else
+                {
+                    return Strings.BotNotConnected;
+                }
             }
-            return response;
+            return Strings.ErrorAborted;
         }
 
         public void OnBotSteamCallbacksInit(Bot bot, CallbackManager callbackManager) {}
