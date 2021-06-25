@@ -9,11 +9,10 @@
 # Description
 Simple plugin for [ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFarm) just to unlock massive achievements.
 
-## Getting Started
-
 ### Prerequisites
 [ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFarm) v5.1.0.9 or higher required. 
 
+## Getting Started
 - download .dll file from [latest release](https://github.com/Cappi1998/ASF-Achievement-Unlocker/releases).
 - move the downloaded .dll file to the plugins folder within the ASF folder.
 - restart ASF so that the plugin loads on startup.
