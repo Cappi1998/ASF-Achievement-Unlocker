@@ -10,6 +10,7 @@ using ArchiSteamFarm.Localization;
 using SteamKit2;
 using SteamKit2.Internal;
 
+//part of this code is from https://github.com/Ryzhehvost/ASF-Achievement-Manager
 namespace ASFAchievementUnlocker
 {
 	public sealed class AchievementHandler : ClientMsgHandler {
