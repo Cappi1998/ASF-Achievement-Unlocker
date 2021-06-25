@@ -18,8 +18,6 @@ Simple plugin for [ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFar
 - restart ASF so that the plugin loads on startup.
 
 ## Usage
-After installation, you can use those commands (only for accounts with Master+ permissions):
-
 ### `unlocker <bots> <appids>`
 
 
