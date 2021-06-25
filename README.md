@@ -7,7 +7,7 @@
 ---
 
 # Description
-Simple plugin for [ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFarm) just to unlock massive achievements simply.
+Simple plugin for [ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFarm) just to unlock massive achievements.
 
 
 # DISCLAIMER
