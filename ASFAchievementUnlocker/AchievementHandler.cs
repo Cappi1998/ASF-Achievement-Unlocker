@@ -213,7 +213,7 @@ namespace ASFAchievementUnlocker
 		{
 			if (!Client.IsConnected) 
 			{
-				return Strings.BotNotConnected;
+				return $"<{bot.BotName}> - {Strings.BotNotConnected}";
 			}
 
 			string responses = "";

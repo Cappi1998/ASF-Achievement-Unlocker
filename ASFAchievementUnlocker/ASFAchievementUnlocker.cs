@@ -87,13 +87,14 @@ namespace ASFAchievementUnlocker
                 {
                     HashSet<uint> achievements = await AchievementHandler.GetAchievements(bot, Convert.ToUInt64(AppID)).ConfigureAwait(false);
                     response += await Task.Run<string>(() => AchievementHandler.SetAchievements(bot, AppID, achievements, true)).ConfigureAwait(false);
+                    response += Environment.NewLine;
                 }
                 else
                 {
-                    return Strings.BotNotConnected;
+                    return $"<{bot.BotName}> - {Strings.BotNotConnected}";
                 }
             }
-            return Strings.ErrorAborted;
+            return response;
         }
 
         public void OnBotSteamCallbacksInit(Bot bot, CallbackManager callbackManager) {}
