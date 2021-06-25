@@ -12,10 +12,16 @@ Simple plugin for [ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFar
 ### Prerequisites
 [ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFarm) v5.1.0.9 or higher required. 
 
-## Getting Started
+# Getting Started
 - download .dll file from [latest release](https://github.com/Cappi1998/ASF-Achievement-Unlocker/releases).
 - move the downloaded .dll file to the plugins folder within the ASF folder.
 - restart ASF so that the plugin loads on startup.
+
+## Usage
+After installation, you can use those commands (only for accounts with Master+ permissions):
+
+### `unlocker <bots> <appids>`
+
 
 # DISCLAIMER
 This plugin is provided on AS-IS basis, without any guarantee at all. Author is not responsible for any harm, direct or indirect, that may be caused by using this plugin. You use this plugin at your own risk.
