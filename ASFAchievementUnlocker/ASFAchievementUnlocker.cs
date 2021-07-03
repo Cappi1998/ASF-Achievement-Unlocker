@@ -40,9 +40,15 @@ namespace ASFAchievementUnlocker
                         string AppIDs = Utilities.GetArgsAsText(args, 2, ",");
                         return await ResponseUnlockerAchievements(botname, AppIDs).ConfigureAwait(false);
                     }
-                default:
+
+                case "UNLOCKER":
                     {
                         return $"Error, wrong format!{Environment.NewLine}Use: unlocker {{BotName}} {{AppID,AppID}}{Environment.NewLine}Use: unlocker asf {{AppID,AppID}} to run on all bots";
+                    }
+
+                default:
+                    {
+                        return null;
                     }
             }
         }
